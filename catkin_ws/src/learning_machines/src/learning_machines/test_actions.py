@@ -74,7 +74,7 @@ def move_back(rob: IRobobo):
     
 def turn_right(rob: IRobobo):
     print("We're making a 90 degree turn to the right")
-    rob.move_blocking(32,-32,1000)
+    rob.move_blocking(28,-28 ,1000)
 def turn_right(rob: IRobobo):
     print("We're making a 90 degree turn to the left")
     rob.move_blocking(-32,32,1000)
